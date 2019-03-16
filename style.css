@@ -5,8 +5,10 @@ body {
 h1 {
     font-family: 'Righteous', cursive;
     color: white;
+    padding: 20px;
 }
 
 h3 {
     font-family: 'Comfortaa', cursive;
+    padding: 20px;
 }
