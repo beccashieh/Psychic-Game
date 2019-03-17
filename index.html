@@ -58,6 +58,9 @@
             }
             maxGuesses--;
             console.log(maxGuesses);
+            if (maxGuesses === 0){
+                alert("GAME OVER!!!!")
+            }
             userChoiceText.textContent = "You chose: " + userGuess;
             computerChoiceText.textContent = "Guess what letter I'm thinking of: " + computerGuess;
             winsText.textContent = "Wins: " + wins;
